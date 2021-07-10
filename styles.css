@@ -1,0 +1,188 @@
+:root {
+/* colors */
+  --strongCyan: hsl(171, 66%, 44%);
+  --strongCyanHover: hsl(171, 66%, 60%);
+  --lightBlue: hsl(233, 100%, 69%);
+  --lightBlueHover: hsl(233, 100%, 75%);
+  --darkGrayishBlue: hsl(210, 10%, 33%);
+  --grayishBlue: hsl(201, 11%, 66%);
+  --lightGray: hsl(0, 0%, 90%);
+
+/* images */
+--desktopBG: url('images/bg-header-desktop.png');
+}
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin:0;
+  color:var(--grayishBlue);
+  background-image: var(--desktopBG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:0;
+}
+
+/* containers */
+.container{
+  padding:10% 10% 5%;
+  margin:0;
+}
+
+.sub-container{
+display: flex;
+margin-top: 7%
+}
+
+/* texts */
+.main-title{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 4%;
+ color:var(--darkGrayishBlue);
+}
+
+.main-text{
+  font-weight: 400;
+  line-height: 1.5;
+  width:50%;
+  margin:1% auto;
+}
+
+/* buttons */
+.main-buttons{
+margin-top: 3%;
+}
+
+.IOS-button{
+color: white;
+font-weight: 600;
+background-color: var(--strongCyan);
+padding:1.5% 3%;
+border-radius: 25px;
+border: solid 0px;
+margin:.5%;
+}
+
+.IOS-button:hover{
+background-color: var(--strongCyanHover);
+}
+
+.MAC-button{
+  color: white;
+  background-color: var(--lightBlue);
+  padding:1.5% 3%;
+  border-radius: 25px;
+  border: solid 0px;
+  font-weight: 600;
+  margin:.5%;
+}
+
+.MAC-button:hover{
+  background-color: var(--lightBlueHover);
+}
+
+
+/* section two */
+.track-image{
+  flex:30%;
+  position: relative;
+  left:-15%;
+}
+
+.track-details{
+  flex:70%;
+  text-align: left;
+}
+
+.track-name{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:var(--darkGrayishBlue);
+  padding-top: 10%;
+}
+
+.track-text{
+  padding-top: 2%;
+  font-size: 16px;
+  width: 65%;
+}
+
+/* section three */
+.image-devices{
+  padding-top: 5%;
+}
+
+
+/* section four */
+.image-icons{
+  height:50px;
+  margin-bottom: 30px;
+}
+
+.workflow-title{
+  font-weight: 600;
+  color:var(--darkGrayishBlue);
+}
+
+.workflow-text{
+  width:75%;
+  margin: 15px auto;
+}
+
+.workflow-logo{
+  justify-content: space-between;
+  margin:10%;
+}
+
+/* section five */
+.bottom-margin{
+  margin-bottom: 15%;
+}
+
+/* footer */
+.footer{
+  background-color: var(--lightGray);
+  color:var(--darkGrayishBlue);
+  padding:3%;
+  display: flex;
+  text-align: left;
+}
+
+.ft-logo{
+  flex:30%;
+  padding:0 5%;
+  align-self: center;
+}
+
+.ft-logo-size{
+  width:25%;
+}
+
+.ft-items{
+flex:35%;
+align-self: center;
+}
+
+.ft-item-hover:hover{
+  color: var(--strongCyan);
+}
+
+.ft-social-icons{
+  flex:35%;
+  text-align: right;
+  align-self: center;
+}
+
+.social-icons-item{
+  padding:0 3%;
+  width:12%;
+}
+
+.social-icons-item:hover{
+  background-color: var(--strongCyan);
+  border-radius: 50%;
+}
